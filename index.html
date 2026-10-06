@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Demo-only: lay out at a fixed 768px width and let mobile Safari
+      shrink-to-fit, so the whole app is visible on a phone without any
+      iPhone-specific CSS. 768 sits comfortably above PORTRAIT_MIN_WIDTH
+      (src/shared/portraitLayout.ts, 687) so the reused renderer picks its
+      normal portrait layout -- just scaled down. Desktop browsers ignore
+      this meta entirely, so the desktop demo is unaffected. If
+      PORTRAIT_MIN_WIDTH ever climbs past ~760, bump this to match.
+    -->
+    <meta name="viewport" content="width=768" />
+    <title>CrashNC (web mockup)</title>
+    <script type="module" crossorigin src="./assets/index-CDzuyGbq.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-B33jYfg5.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
